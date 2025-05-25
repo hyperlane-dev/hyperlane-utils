@@ -1,0 +1,62 @@
+[package]
+name = "hyperlane-utils"
+version = "0.1.0"
+edition = "2024"
+authors = ["root@ltpp.vip"] 
+license = "MIT"
+description = """A library providing utils for hyperlane."""
+keywords = ["http", "request", "response", "tcp", "redirect"]
+repository = "https://github.com/eastspire/hyperlane-utils.git"
+categories = ["network-programming", "web-programming"]
+exclude = [
+    "target",
+    "Cargo.lock",
+    "sh",
+    ".github"
+]
+
+[dependencies]
+hex = "0.4.3"
+lombok-macros = "1.11.4"
+serde = "1.0.219"
+serde-xml-rs = "0.8.0"
+serde_json = "1.0.140"
+serde_urlencoded = "0.7.1"
+url = "2.5.4"
+once_cell = "1.21.3"
+simd-json = "0.15.0"
+futures = "0.3.31"
+num_cpus = "1.16.0"
+ahash = "0.8.12"
+urlencoding = "2.1.3"
+twox-hash = "2.1.0"
+chunkify = "0.6.2"
+future-fn = "0.2.5"
+color-output = "6.6.4"
+clonelicious = "2.0.3"
+hyperlane-log = "1.16.8"
+server-manager = "3.2.4"
+file-operation = "0.5.12"
+compare_version = "1.0.0"
+bin-encode-decode = "1.0.1"
+recoverable-spawn = "3.7.11"
+hyperlane-broadcast = "0.2.3"
+recoverable-thread-pool = "2.3.7"
+
+[profile.dev]
+incremental = false
+opt-level = 3
+lto = true
+panic = "unwind"
+debug = false
+codegen-units = 1
+strip = "debuginfo"
+
+[profile.release]
+incremental = false
+opt-level = 3
+lto = true
+panic = "unwind"
+debug = false
+codegen-units = 1
+strip = "debuginfo"
