@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2024"
 authors = ["root@ltpp.vip"] 
 license = "MIT"
@@ -42,6 +42,7 @@ bin-encode-decode = "1.0.1"
 recoverable-spawn = "3.7.11"
 hyperlane-broadcast = "0.3.0"
 recoverable-thread-pool = "2.3.7"
+log = "0.4.27"
 
 [profile.dev]
 incremental = false
