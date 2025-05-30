@@ -18,6 +18,7 @@ pub use hyperlane_log::*;
 pub use recoverable_spawn::*;
 pub use recoverable_thread_pool::*;
 pub use server_manager::*;
+pub use std_macro_extensions::*;
 
 pub use ahash;
 pub use futures;
