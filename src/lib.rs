@@ -13,6 +13,7 @@ pub use color_output::*;
 pub use compare_version::*;
 pub use file_operation::*;
 pub use future_fn::*;
+pub use hot_restart::*;
 pub use hyperlane_broadcast::*;
 pub use hyperlane_log::*;
 pub use recoverable_spawn::*;
