@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "0.10.0"
+version = "0.10.1"
 edition = "2024"
 authors = ["root@ltpp.vip"] 
 license = "MIT"
@@ -35,7 +35,7 @@ future-fn = "0.2.5"
 color-output = "6.6.4"
 clonelicious = "2.0.3"
 hyperlane-log = "1.16.9"
-server-manager = "3.4.2"
+server-manager = "3.4.3"
 file-operation = "0.5.12"
 compare_version = "1.0.0"
 bin-encode-decode = "1.0.1"
@@ -44,7 +44,7 @@ hyperlane-broadcast = "0.5.0"
 recoverable-thread-pool = "2.3.7"
 log = "0.4.27"
 std-macro-extensions = "0.25.1"
-hot-restart = "0.2.0"
+hot-restart = "0.2.2"
 
 [profile.dev]
 incremental = false
