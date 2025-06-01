@@ -34,6 +34,9 @@ pub use serde_xml_rs;
 pub use simd_json;
 pub use twox_hash;
 pub use urlencoding;
+pub use utoipa;
+pub use utoipa_rapidoc;
+pub use utoipa_swagger_ui;
 
 pub(crate) use serde::Serialize;
 pub(crate) use serde::de::DeserializeOwned;
