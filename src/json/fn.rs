@@ -8,7 +8,7 @@ use crate::*;
 /// # Returns
 /// - `Ok(T)` if parsing succeeds, where T is the deserialized value
 /// - `Err(SerdeJsonError)` if parsing fails
-pub fn json_parse_from_slice<T>(data: &[u8]) -> ResultSerdeJsonError<T>
+pub fn json_parse_from_slice<T>(data: &[u8]) -> Result<T, SerdeJsonError>
 where
     T: DeserializeOwned,
 {
@@ -23,7 +23,7 @@ where
 /// # Returns
 /// - `Ok(T)` if parsing succeeds, where T is the deserialized value
 /// - `Err(SerdeJsonError)` if parsing fails
-pub fn json_parse_from_str<T>(data: &str) -> ResultSerdeJsonError<T>
+pub fn json_parse_from_str<T>(data: &str) -> Result<T, SerdeJsonError>
 where
     T: DeserializeOwned,
 {
@@ -38,9 +38,24 @@ where
 /// # Returns
 /// - `Ok(String)` containing the JSON text if serialization succeeds
 /// - `Err(SerdeJsonError)` if serialization fails
-pub fn json_stringify<T>(data: &T) -> ResultSerdeJsonError<String>
+pub fn json_stringify_string<T>(data: &T) -> Result<String, SerdeJsonError>
 where
     T: ?Sized + Serialize,
 {
     serde_json::to_string(data)
+}
+
+/// Serializes a value to a JSON byte vector.
+///
+/// # Arguments
+/// - `data` - The value to serialize
+///
+/// # Returns
+/// - `Ok(Vec<u8>)` containing the JSON bytes if serialization succeeds
+/// - `Err(SerdeJsonError)` if serialization fails
+pub fn json_stringify_binary<T>(data: &T) -> Result<Vec<u8>, SerdeJsonError>
+where
+    T: ?Sized + Serialize,
+{
+    serde_json::to_vec(data)
 }
