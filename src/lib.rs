@@ -16,6 +16,7 @@ pub use future_fn::*;
 pub use hot_restart::*;
 pub use hyperlane_broadcast::*;
 pub use hyperlane_log::*;
+pub use hyperlane_macros::*;
 pub use lombok_macros::*;
 pub use recoverable_spawn::*;
 pub use recoverable_thread_pool::*;
