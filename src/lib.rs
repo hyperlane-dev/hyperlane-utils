@@ -43,4 +43,3 @@ pub use utoipa_swagger_ui;
 pub(crate) use serde::Serialize;
 pub(crate) use serde::de::DeserializeOwned;
 pub(crate) use serde_json::Error as SerdeJsonError;
-pub(crate) use std::thread::available_parallelism;
