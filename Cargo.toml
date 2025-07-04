@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "1.4.2"
+version = "1.4.3"
 edition = "2024"
 authors = ["root@ltpp.vip"] 
 license = "MIT"
@@ -32,7 +32,7 @@ urlencoding = "2.1.3"
 twox-hash = "2.1.1"
 chunkify = "0.6.3"
 future-fn = "0.2.6"
-color-output = "7.0.2"
+color-output = "7.0.4"
 clonelicious = "2.1.0"
 hyperlane-log = "1.17.3"
 server-manager = "3.4.4"
