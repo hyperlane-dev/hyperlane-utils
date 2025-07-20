@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "1.7.3"
+version = "1.7.4"
 edition = "2024"
 authors = ["root@ltpp.vip"]
 license = "MIT"
@@ -17,7 +17,7 @@ exclude = [
 
 [dependencies]
 hex = "0.4.3"
-lombok-macros = "1.13.1"
+lombok-macros = "1.13.2"
 serde = "1.0.219"
 serde-xml-rs = "0.8.1"
 serde_json = "1.0.141"
@@ -48,8 +48,8 @@ hot-restart = "0.2.7"
 utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
 utoipa-swagger-ui = { version = "9.0.2", features = ["debug-embed", "vendored", "actix-web"] }
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
-hyperlane-macros = "1.8.3"
-hyperlane-plugin-websocket = "1.0.19"
+hyperlane-macros = "1.8.4"
+hyperlane-plugin-websocket = "1.0.20"
 
 [profile.dev]
 incremental = false
