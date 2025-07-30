@@ -1,3 +1,7 @@
+//! hyperlane-utils
+//!
+//! A library providing utils for hyperlane.
+
 pub use bin_encode_decode::*;
 pub use chunkify::*;
 pub use clonelicious::*;

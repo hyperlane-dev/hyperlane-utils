@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "2.0.4"
+version = "2.1.0"
 edition = "2024"
 authors = ["root@ltpp.vip"]
 license = "MIT"
@@ -17,7 +17,7 @@ exclude = [
 
 [dependencies]
 hex = "0.4.3"
-lombok-macros = "1.13.3"
+lombok-macros = "1.13.7"
 serde = "1.0.219"
 serde-xml-rs = "0.8.1"
 serde_json = "1.0.141"
@@ -30,26 +30,26 @@ num_cpus = "1.17.0"
 ahash = "0.8.12"
 urlencoding = "2.1.3"
 twox-hash = "2.1.1"
-chunkify = "0.6.6"
-future-fn = "0.2.8"
-color-output = "7.0.6"
-clonelicious = "2.1.2"
-hyperlane-log = "1.17.6"
-server-manager = "3.4.5"
-file-operation = "0.5.16"
-compare_version = "1.0.1"
-bin-encode-decode = "1.0.2"
-recoverable-spawn = "3.7.13"
-hyperlane-broadcast = "0.6.0"
-recoverable-thread-pool = "2.3.10"
+chunkify = "0.6.7"
+future-fn = "0.3.1"
+color-output = "7.2.1"
+clonelicious = "2.2.1"
+hyperlane-log = "1.18.1"
+server-manager = "3.5.0"
+file-operation = "0.8.1"
+compare_version = "1.2.0"
+bin-encode-decode = "1.1.1"
+recoverable-spawn = "3.9.1"
+hyperlane-broadcast = "0.7.1"
+recoverable-thread-pool = "2.4.1"
 log = "0.4.27"
-std-macro-extensions = "0.25.2"
-hot-restart = "0.2.7"
+std-macro-extensions = "0.26.1"
+hot-restart = "0.5.1"
 utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
 utoipa-swagger-ui = { version = "9.0.2", features = ["debug-embed", "vendored", "actix-web"] }
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
-hyperlane-macros = "1.9.4"
-hyperlane-plugin-websocket = "2.1.3"
+hyperlane-macros = "1.10.0"
+hyperlane-plugin-websocket = "2.2.1"
 
 [profile.dev]
 incremental = false
