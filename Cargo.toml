@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "2.1.24"
+version = "2.2.0"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -45,7 +45,7 @@ hyperlane-broadcast = "0.7.5"
 recoverable-thread-pool = "2.4.4"
 log = "0.4.27"
 std-macro-extensions = "0.26.5"
-hot-restart = "0.5.4"
+hot-restart = "0.6.0"
 utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
 utoipa-swagger-ui = { version = "9.0.2", features = ["debug-embed", "vendored", "actix-web"] }
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
