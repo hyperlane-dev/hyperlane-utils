@@ -22,6 +22,7 @@ pub use std_macro_extensions::*;
 
 pub use ahash;
 pub use futures;
+pub use inventory;
 pub use log;
 pub use num_cpus;
 pub use once_cell;
