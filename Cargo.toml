@@ -1,13 +1,13 @@
 [package]
 name = "hyperlane-utils"
-version = "9.0.0"
+version = "9.0.1"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
 license = "MIT"
 description = """A library providing utils for hyperlane."""
 keywords = ["http", "request", "response", "tcp", "redirect"]
-repository = "https://github.com/crates-dev/hyperlane-utils.git"
+repository = "https://github.com/hyperlane-dev/hyperlane-utils.git"
 categories = ["network-programming", "web-programming"]
 exclude = [
     "target",
@@ -35,13 +35,13 @@ chunkify = "0.6.36"
 future-fn = "0.3.4"
 color-output = "7.2.7"
 clonelicious = "2.2.4"
-hyperlane-log = "1.18.6"
+hyperlane-log = "1.18.7"
 server-manager = "5.0.0"
 file-operation = "0.8.4"
 compare_version = "1.2.3"
 bin-encode-decode = "1.1.21"
 recoverable-spawn = "3.9.4"
-hyperlane-broadcast = "0.7.5"
+hyperlane-broadcast = "0.7.6"
 recoverable-thread-pool = "2.4.4"
 log = "0.4.27"
 std-macro-extensions = "0.26.5"
@@ -49,8 +49,8 @@ hot-restart = "0.6.0"
 utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
 utoipa-swagger-ui = { version = "9.0.2", features = ["debug-embed", "vendored", "actix-web"] }
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
-hyperlane-macros = "6.0.0"
-hyperlane-plugin-websocket = "2.2.41"
+hyperlane-macros = "6.0.1"
+hyperlane-plugin-websocket = "2.2.42"
 inventory = "0.3.21"
 
 [profile.dev]

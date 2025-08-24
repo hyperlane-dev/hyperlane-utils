@@ -5,7 +5,7 @@
 [![](https://img.shields.io/crates/v/hyperlane-utils.svg)](https://crates.io/crates/hyperlane-utils)
 [![](https://img.shields.io/crates/d/hyperlane-utils.svg)](https://img.shields.io/crates/d/hyperlane-utils.svg)
 [![](https://docs.rs/hyperlane-utils/badge.svg)](https://docs.rs/hyperlane-utils)
-[![](https://github.com/crates-dev/hyperlane-utils/workflows/Rust/badge.svg)](https://github.com/crates-dev/hyperlane-utils/actions?query=workflow:Rust)
+[![](https://github.com/hyperlane-dev/hyperlane-utils/workflows/Rust/badge.svg)](https://github.com/hyperlane-dev/hyperlane-utils/actions?query=workflow:Rust)
 [![](https://img.shields.io/crates/l/hyperlane-utils.svg)](./LICENSE)
 
 </center>
