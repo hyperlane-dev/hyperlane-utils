@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "11.6.0"
+version = "11.7.0"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -25,7 +25,6 @@ ahash = "0.8.12"
 redis = "0.32.7"
 regex = "1.12.1"
 chrono = "0.4.42"
-sea-orm = "1.1.17"
 futures = "0.3.31"
 num_cpus = "1.17.0"
 chunkify = "0.6.36"
@@ -58,6 +57,7 @@ hyperlane-plugin-websocket = "2.2.66"
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
 utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
 sqlx = { version = "0.8.6", features = ["runtime-tokio", "mysql", "postgres"] }
+sea-orm = { version = "1.1.17", features = ["sqlx-mysql", "sqlx-postgres", "sqlx-sqlite", "runtime-tokio-rustls"] }
 utoipa-swagger-ui = { version = "9.0.2", features = ["debug-embed", "vendored", "actix-web"] }
 uuid = { version = "1.18.1", features = ["v1","v3","v4","v5","v6","v7","v8","serde","fast-rng","macro-diagnostics","arbitrary","bytemuck","rng-rand","rng-getrandom","rng","md5","sha1","borsh","zerocopy"] }
 
