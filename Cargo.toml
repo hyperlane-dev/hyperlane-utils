@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "12.1.1"
+version = "12.1.2"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -53,7 +53,7 @@ recoverable-spawn = "3.9.7"
 hyperlane-broadcast = "0.8.2"
 std-macro-extensions = "0.26.6"
 recoverable-thread-pool = "2.4.7"
-hyperlane-plugin-websocket = "3.0.6"
+hyperlane-plugin-websocket = "3.0.7"
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
 utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
 sqlx = { version = "0.8.6", features = ["runtime-tokio", "mysql", "postgres"] }
