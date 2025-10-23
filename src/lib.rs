@@ -38,6 +38,7 @@ pub use serde_json;
 pub use serde_urlencoded;
 pub use serde_with;
 pub use serde_xml_rs;
+pub use serde_yaml;
 pub use simd_json;
 pub use sqlx;
 pub use twox_hash;
