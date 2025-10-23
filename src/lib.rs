@@ -24,6 +24,7 @@ pub use std_macro_extensions::*;
 pub use ahash;
 pub use bytemuck_derive;
 pub use chrono;
+pub use dotenvy;
 pub use futures;
 pub use hex;
 pub use inventory;
