@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "12.7.2"
+version = "12.7.3"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -40,7 +40,7 @@ serde_json = "1.0.145"
 hot-restart = "0.6.3"
 urlencoding = "2.1.3"
 color-output = "8.1.0"
-http-request = "8.91.37"
+http-request = "8.91.38"
 clonelicious = "2.2.7"
 serde-xml-rs = "0.8.1"
 lombok-macros = "1.13.13"
@@ -50,13 +50,13 @@ file-operation = "0.8.6"
 bytemuck_derive = "1.10.2"
 compare_version = "1.2.5"
 serde_urlencoded = "0.7.1"
-hyperlane-macros = "10.6.1"
+hyperlane-macros = "10.6.2"
 bin-encode-decode = "1.1.26"
 recoverable-spawn = "3.9.7"
 hyperlane-broadcast = "0.8.2"
 std-macro-extensions = "0.26.6"
 recoverable-thread-pool = "2.4.7"
-hyperlane-plugin-websocket = "3.1.5"
+hyperlane-plugin-websocket = "3.1.6"
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
 utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
 sqlx = { version = "0.8.6", features = ["runtime-tokio", "mysql", "postgres"] }
