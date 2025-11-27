@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "12.7.8"
+version = "12.7.9"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -50,7 +50,7 @@ file-operation = "0.8.6"
 bytemuck_derive = "1.10.2"
 compare_version = "1.2.5"
 serde_urlencoded = "0.7.1"
-hyperlane-macros = "10.6.7"
+hyperlane-macros = "10.6.9"
 bin-encode-decode = "1.1.26"
 recoverable-spawn = "3.9.7"
 hyperlane-broadcast = "0.8.2"
