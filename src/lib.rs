@@ -41,6 +41,7 @@ pub use serde_with;
 pub use serde_xml_rs;
 pub use serde_yaml;
 pub use simd_json;
+pub use snafu;
 pub use sqlx;
 pub use twox_hash;
 pub use url;
