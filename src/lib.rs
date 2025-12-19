@@ -27,7 +27,6 @@ pub use chrono;
 pub use dotenvy;
 pub use futures;
 pub use hex;
-pub use inventory;
 pub use log;
 pub use num_cpus;
 pub use once_cell;
