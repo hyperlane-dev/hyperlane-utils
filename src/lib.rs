@@ -34,7 +34,6 @@ pub use redis;
 pub use regex;
 pub use sea_orm;
 pub use serde;
-pub use serde_json;
 pub use serde_urlencoded;
 pub use serde_with;
 pub use serde_xml_rs;
