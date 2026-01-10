@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "12.17.1"
+version = "13.0.0"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -40,7 +40,7 @@ clonelicious = "2.2.11"
 http-request = "8.91.72"
 serde-xml-rs = "0.8.2"
 lombok-macros = "1.15.6"
-hyperlane-log = "1.19.9"
+hyperlane-log = "2.0.0"
 server-manager = "5.0.7"
 file-operation = "0.8.10"
 bytemuck_derive = "1.10.2"
