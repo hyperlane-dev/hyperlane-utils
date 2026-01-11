@@ -41,6 +41,7 @@ pub use serde_yaml;
 pub use simd_json;
 pub use snafu;
 pub use sqlx;
+pub use tracing;
 pub use tracing_log;
 pub use tracing_subscriber;
 pub use twox_hash;
