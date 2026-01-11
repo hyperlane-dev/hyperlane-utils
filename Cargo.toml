@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "14.0.4"
+version = "14.1.0"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -34,6 +34,7 @@ future-fn = "0.3.10"
 serde_with = "3.16.1"
 serde_yaml = "0.9.33"
 hot-restart = "0.6.8"
+tracing-log = "0.2.0"
 urlencoding = "2.1.3"
 color-output = "8.2.7"
 clonelicious = "2.2.12"
@@ -56,6 +57,7 @@ hyperlane-plugin-websocket = "3.1.59"
 serde = { version = "1.0.228", features = ["derive"] }
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
 utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
+tracing-subscriber = { version = "0.3.22", features = ["env-filter"] }
 sqlx = { version = "0.8.6", features = ["runtime-tokio", "mysql", "postgres"] }
 sea-orm = { version = "1.1.19", features = [
     "sqlx-mysql",
