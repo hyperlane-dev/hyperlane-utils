@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "14.3.3"
+version = "14.3.4"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -39,7 +39,7 @@ color-output = "8.2.7"
 clonelicious = "2.2.12"
 http-request = "8.91.76"
 serde-xml-rs = "0.8.2"
-lombok-macros = "2.0.13"
+lombok-macros = "2.0.14"
 hyperlane-log = "4.0.0"
 server-manager = "5.0.8"
 file-operation = "0.8.11"
@@ -47,13 +47,13 @@ bytemuck_derive = "1.10.2"
 compare_version = "1.2.9"
 instrument-level = "1.0.7"
 serde_urlencoded = "0.7.1"
-hyperlane-macros = "10.14.12"
+hyperlane-macros = "10.14.13"
 bin-encode-decode = "1.1.31"
 recoverable-spawn = "3.9.12"
 hyperlane-broadcast = "0.8.10"
 std-macro-extensions = "0.26.11"
 recoverable-thread-pool = "2.4.12"
-hyperlane-plugin-websocket = "3.1.60"
+hyperlane-plugin-websocket = "3.1.61"
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
 utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
 tracing-subscriber = { version = "0.3.22", features = ["env-filter"] }
