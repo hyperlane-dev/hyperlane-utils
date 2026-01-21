@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "14.3.8"
+version = "14.3.9"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -25,7 +25,7 @@ lettre = "0.11.19"
 dotenvy = "0.15.7"
 futures = "0.3.31"
 num_cpus = "1.17.0"
-chunkify = "0.6.44"
+chunkify = "0.6.45"
 once_cell = "1.21.3"
 simd-json = "0.17.0"
 twox-hash = "2.1.2"
