@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "14.5.0"
+version = "14.5.1"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -25,36 +25,36 @@ lettre = "0.11.19"
 dotenvy = "0.15.7"
 futures = "0.3.31"
 num_cpus = "1.17.0"
-chunkify = "0.6.45"
+chunkify = "0.6.46"
 once_cell = "1.21.3"
 simd-json = "0.17.0"
 twox-hash = "2.1.2"
-future-fn = "0.3.13"
+future-fn = "0.3.14"
 serde_with = "3.16.1"
 serde_yaml = "0.9.33"
-hot-restart = "0.6.13"
+hot-restart = "0.6.14"
 jwt-service = "0.1.1"
 tracing-log = "0.2.0"
 urlencoding = "2.1.3"
-color-output = "8.2.13"
-clonelicious = "2.2.15"
-http-request = "8.91.84"
+color-output = "8.2.14"
+clonelicious = "2.2.16"
+http-request = "8.91.85"
 serde-xml-rs = "0.8.2"
-lombok-macros = "2.0.19"
-hyperlane-log = "4.0.3"
-server-manager = "5.0.10"
-file-operation = "0.8.16"
+lombok-macros = "2.0.20"
+hyperlane-log = "4.0.4"
+server-manager = "5.0.11"
+file-operation = "0.8.17"
 bytemuck_derive = "1.10.2"
-compare_version = "2.0.2"
-instrument-level = "1.0.9"
+compare_version = "2.0.3"
+instrument-level = "1.0.10"
 serde_urlencoded = "0.7.1"
-hyperlane-macros = "11.0.7"
-bin-encode-decode = "1.1.39"
-recoverable-spawn = "3.9.16"
-hyperlane-broadcast = "0.8.16"
-std-macro-extensions = "0.26.15"
-recoverable-thread-pool = "2.4.16"
-hyperlane-plugin-websocket = "4.0.7"
+hyperlane-macros = "11.0.8"
+bin-encode-decode = "1.1.40"
+recoverable-spawn = "3.9.17"
+hyperlane-broadcast = "0.8.17"
+std-macro-extensions = "0.26.16"
+recoverable-thread-pool = "2.4.17"
+hyperlane-plugin-websocket = "4.0.8"
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
 jsonwebtoken = { version = "10.2.0", features = ["rust_crypto"] }
 utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
@@ -71,7 +71,7 @@ utoipa-swagger-ui = { version = "9.0.2", features = [
     "vendored",
     "actix-web",
 ] }
-uuid = { version = "1.19.0", features = [
+uuid = { version = "1.20.0", features = [
     "v1",
     "v3",
     "v4",

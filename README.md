@@ -12,7 +12,7 @@
 
 [Official Documentation](https://docs.ltpp.vip/hyperlane-utils/)
 
-[Api Docs](https://docs.rs/hyperlane-utils/latest/hyperlane_utils/)
+[Api Docs](https://docs.rs/hyperlane-utils/latest/)
 
 > A library providing utils for hyperlane.
 
