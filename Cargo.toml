@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "20.2.0"
+version = "20.3.0"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -26,6 +26,7 @@ chrono = "0.4.43"
 lettre = "0.11.19"
 dotenvy = "0.15.7"
 futures = "0.3.31"
+sysinfo = "0.38.1"
 num_cpus = "1.17.0"
 chunkify = "0.6.46"
 once_cell = "1.21.3"
