@@ -3,7 +3,7 @@
 //! A library providing utils for hyperlane.
 
 pub use {
-    ahash, bin_encode_decode::*, bytemuck_derive, chrono, chunkify::*, clonelicious::*,
+    ahash, base64, bin_encode_decode::*, bytemuck_derive, chrono, chunkify::*, clonelicious::*,
     color_output::*, compare_version::*, dotenvy, file_operation::*, future_fn::*, futures, hex,
     hot_restart::*, http_request::*, hyperlane_broadcast::*, hyperlane_log::*, hyperlane_macros::*,
     hyperlane_plugin_websocket::*, instrument_level::*, jsonwebtoken, jwt_service::*, log,
