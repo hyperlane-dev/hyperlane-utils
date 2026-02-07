@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "20.0.0"
+version = "20.1.0"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -15,6 +15,7 @@ exclude = ["target", "Cargo.lock", "sh", ".github"]
 hex = "0.4.3"
 log = "0.4.29"
 url = "2.5.8"
+sha2 = "0.10.9"
 snafu = "0.8.9"
 ahash = "0.8.12"
 redis = "1.0.3"
@@ -56,6 +57,7 @@ hyperlane-broadcast = "2.0.1"
 std-macro-extensions = "0.26.16"
 recoverable-thread-pool = "2.4.17"
 hyperlane-plugin-websocket = "8.0.0"
+rust_decimal = { version = "1.40.0", features = ["serde"] }
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
 jsonwebtoken = { version = "10.3.0", features = ["rust_crypto"] }
 utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
