@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "24.1.1"
+version = "24.1.2"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -51,13 +51,13 @@ bytemuck_derive = "1.10.2"
 compare_version = "2.0.4"
 instrument-level = "1.0.12"
 serde_urlencoded = "0.7.1"
-hyperlane-macros = "17.0.6"
+hyperlane-macros = "17.0.7"
 bin-encode-decode = "1.1.41"
 recoverable-spawn = "3.9.19"
 hyperlane-broadcast = "2.0.2"
 std-macro-extensions = "1.0.0"
 recoverable-thread-pool = "2.4.19"
-hyperlane-plugin-websocket = "11.0.5"
+hyperlane-plugin-websocket = "11.0.6"
 rust_decimal = { version = "1.40.0", features = ["serde"] }
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
 jsonwebtoken = { version = "10.3.0", features = ["rust_crypto"] }
