@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "27.0.2"
+version = "27.0.3"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -42,7 +42,6 @@ tracing-log = "0.2.0"
 urlencoding = "2.1.3"
 color-output = "10.0.0"
 clonelicious = "2.2.17"
-http-request = "8.91.108"
 serde-xml-rs = "0.8.2"
 lombok-macros = "2.0.27"
 hyperlane-log = "4.0.6"
@@ -75,6 +74,15 @@ utoipa-swagger-ui = { version = "9.0.2", features = [
     "debug-embed",
     "vendored",
     "actix-web",
+] }
+reqwest = { version = "0.13.2", features = [
+    "json",
+    "stream",
+    "multipart",
+    "cookies",
+    "gzip",
+    "socks",
+    "blocking",
 ] }
 uuid = { version = "1.23.0", features = [
     "v1",
