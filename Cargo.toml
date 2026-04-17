@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "27.0.4"
+version = "27.1.0"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -58,7 +58,11 @@ hyperlane-broadcast = "2.0.2"
 std-macro-extensions = "1.0.0"
 recoverable-thread-pool = "2.4.19"
 hyperlane-plugin-websocket = "13.0.2"
+rsa = { version = "0.9.10", features = ["sha2"] }
+aes = { version = "0.9.0", features = ["hazmat"] }
 rust_decimal = { version = "1.41.0", features = ["serde"] }
+cipher = { version = "0.5.1", features = ["block-padding"] }
+ed25519-dalek = { version = "2.2.0", features = ["rand_core"] }
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
 jsonwebtoken = { version = "10.3.0", features = ["rust_crypto"] }
 utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
