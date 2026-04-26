@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "27.1.0"
+version = "28.0.0"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -16,6 +16,7 @@ hex = "0.4.3"
 log = "0.4.29"
 md5 = "0.8.0"
 url = "2.5.8"
+rand = "0.10.1"
 sha2 = "0.11.0"
 snafu = "0.9.0"
 ahash = "0.8.12"
@@ -52,13 +53,13 @@ compare_version = "2.0.4"
 instrument-level = "1.0.12"
 serde_urlencoded = "0.7.1"
 hyperlane-macros = "20.0.2"
+rustls-pki-types = "1.14.1"
 bin-encode-decode = "1.1.41"
 recoverable-spawn = "3.9.19"
 hyperlane-broadcast = "2.0.2"
 std-macro-extensions = "1.0.0"
 recoverable-thread-pool = "2.4.19"
 hyperlane-plugin-websocket = "13.0.2"
-rsa = { version = "0.9.10", features = ["sha2"] }
 aes = { version = "0.9.0", features = ["hazmat"] }
 rust_decimal = { version = "1.41.0", features = ["serde"] }
 cipher = { version = "0.5.1", features = ["block-padding"] }
@@ -88,7 +89,19 @@ reqwest = { version = "0.13.2", features = [
     "socks",
     "blocking",
 ] }
-uuid = { version = "1.23.0", features = [
+rsa = { version = "0.9.10", default-features = false, features = [
+    "std",
+    "pem",
+    "u64_digit",
+    "hazmat",
+    "getrandom",
+    "nightly",
+    "serde",
+    "sha2",
+    "sha1",
+    "pkcs5",
+] }
+uuid = { version = "1.23.1", features = [
     "v1",
     "v3",
     "v4",
