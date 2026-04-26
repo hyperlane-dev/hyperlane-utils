@@ -7,7 +7,7 @@ pub use {
     clonelicious::*, color_output::*, compare_version::*, dotenvy, ed25519_dalek,
     file_operation::*, future_fn::*, futures, hex, hot_restart::*, hyperlane_broadcast::*,
     hyperlane_log::*, hyperlane_macros::*, hyperlane_plugin_websocket::*, instrument_level::*,
-    jsonwebtoken, jwt_service::*, log, lombok_macros::*, md5, num_cpus, once_cell, rand,
+    jsonwebtoken, jwt_service::*, log, lombok_macros::*, md5, num_cpus, once_cell, rand, rand_core,
     recoverable_spawn::*, recoverable_thread_pool::*, redis, regex, reqwest, rsa, rust_decimal,
     rustls_pki_types, sea_orm, serde_urlencoded, serde_with, serde_xml_rs, serde_yaml,
     server_manager::*, sha2, simd_json, snafu, sqlx, std_macro_extensions::*, sysinfo, tracing_log,
