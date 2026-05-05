@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "30.1.0"
+version = "30.2.0"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -20,8 +20,9 @@ rand = "0.10.1"
 sha2 = "0.11.0"
 snafu = "0.9.0"
 ahash = "0.8.12"
-redis = "1.2.0"
+redis = "1.2.1"
 rinja = "0.3.5"
+which = "8.0.2"
 regex = "1.12.3"
 base64 = "0.22.1"
 chrono = "0.4.44"
@@ -35,7 +36,7 @@ once_cell = "1.21.4"
 simd-json = "0.17.0"
 twox-hash = "2.1.2"
 future-fn = "0.3.15"
-serde_with = "3.18.0"
+serde_with = "3.19.0"
 serde_yaml = "0.9.33"
 hot-restart = "0.6.15"
 jwt-service = "0.2.1"
@@ -67,7 +68,7 @@ cipher = { version = "0.5.1", features = ["block-padding"] }
 ed25519-dalek = { version = "2.2.0", features = ["rand_core"] }
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
 jsonwebtoken = { version = "10.3.0", features = ["rust_crypto"] }
-utoipa = { version = "5.4.0", features = ["openapi_extensions"] }
+utoipa = { version = "5.5.0", features = ["openapi_extensions"] }
 tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
 sqlx = { version = "0.8.6", features = ["runtime-tokio", "mysql", "postgres"] }
 sea-orm = { version = "1.1.20", features = [
@@ -81,7 +82,7 @@ utoipa-swagger-ui = { version = "9.0.2", features = [
     "vendored",
     "actix-web",
 ] }
-reqwest = { version = "0.13.2", features = [
+reqwest = { version = "0.13.3", features = [
     "json",
     "stream",
     "multipart",
