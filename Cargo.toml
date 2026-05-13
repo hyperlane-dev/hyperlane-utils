@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "30.2.5"
+version = "31.0.0"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -21,7 +21,7 @@ sha2 = "0.11.0"
 snafu = "0.9.0"
 ahash = "0.8.12"
 redis = "1.2.1"
-rinja = "0.3.4"
+rinja = "0.3.5"
 which = "8.0.2"
 regex = "1.12.3"
 base64 = "0.22.1"
@@ -29,7 +29,7 @@ chrono = "0.4.44"
 lettre = "0.11.21"
 dotenvy = "0.15.7"
 futures = "0.3.32"
-sysinfo = "0.38.4"
+sysinfo = "0.39.1"
 num_cpus = "1.17.0"
 chunkify = "0.6.50"
 once_cell = "1.21.4"
@@ -53,21 +53,21 @@ bytemuck_derive = "1.10.2"
 compare_version = "2.0.4"
 instrument-level = "1.0.12"
 serde_urlencoded = "0.7.1"
-hyperlane-macros = "20.0.6"
+hyperlane-macros = "21.0.2"
 rustls-pki-types = "1.14.1"
 bin-encode-decode = "1.1.41"
 recoverable-spawn = "3.9.20"
 hyperlane-broadcast = "2.0.3"
 std-macro-extensions = "1.0.1"
 recoverable-thread-pool = "2.4.20"
-hyperlane-plugin-websocket = "13.0.6"
+hyperlane-plugin-websocket = "14.0.3"
 aes = { version = "0.9.0", features = ["hazmat"] }
 getrandom = { version = "0.4.2", features = ["sys_rng"] }
 rust_decimal = { version = "1.42.0", features = ["serde"] }
 cipher = { version = "0.5.1", features = ["block-padding"] }
 ed25519-dalek = { version = "2.2.0", features = ["rand_core"] }
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
-jsonwebtoken = { version = "10.3.0", features = ["rust_crypto"] }
+jsonwebtoken = { version = "10.4.0", features = ["rust_crypto"] }
 utoipa = { version = "5.5.0", features = ["openapi_extensions"] }
 tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
 sqlx = { version = "0.8.6", features = ["runtime-tokio", "mysql", "postgres"] }
