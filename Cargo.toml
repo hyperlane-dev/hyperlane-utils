@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "33.0.2"
+version = "33.0.3"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -70,7 +70,7 @@ utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
 jsonwebtoken = { version = "10.4.0", features = ["rust_crypto"] }
 utoipa = { version = "5.5.0", features = ["openapi_extensions"] }
 tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
-sqlx = { version = "0.9.0", features = ["runtime-tokio", "mysql", "postgres"] }
+sqlx = { version = "0.8.6", features = ["runtime-tokio", "mysql", "postgres"] }
 sea-orm = { version = "1.1.20", features = [
     "sqlx-mysql",
     "sqlx-postgres",
