@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "33.1.0"
+version = "33.1.1"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -22,8 +22,8 @@ snafu = "0.9.1"
 ahash = "0.8.12"
 redis = "1.2.2"
 rinja = "0.3.5"
-which = "8.0.2"
-regex = "1.12.3"
+which = "8.0.3"
+regex = "1.12.4"
 scraper = "0.27.0"
 base64 = "0.22.1"
 chrono = "0.4.45"
@@ -32,39 +32,39 @@ dotenvy = "0.15.7"
 futures = "0.3.32"
 sysinfo = "0.38.4"
 num_cpus = "1.17.0"
-chunkify = "0.6.54"
+chunkify = "0.6.55"
 once_cell = "1.21.4"
 simd-json = "0.17.0"
 twox-hash = "2.1.2"
-future-fn = "0.3.18"
+future-fn = "0.3.19"
 serde_with = "3.21.0"
 serde_yaml = "0.9.34"
-hot-restart = "0.6.17"
-jwt-service = "0.2.3"
+hot-restart = "0.6.18"
+jwt-service = "0.2.4"
 tracing-log = "0.2.0"
 urlencoding = "2.1.3"
-color-output = "10.0.3"
-clonelicious = "2.2.20"
+color-output = "10.0.4"
+clonelicious = "2.2.21"
 serde-xml-rs = "0.8.2"
-lombok-macros = "2.0.28"
-hyperlane-log = "4.0.9"
-server-manager = "5.0.15"
-file-operation = "0.8.24"
+lombok-macros = "2.0.29"
+hyperlane-log = "4.0.10"
+server-manager = "5.0.16"
+file-operation = "0.8.25"
 bytemuck_derive = "1.10.2"
-compare_version = "2.0.6"
-instrument-level = "1.0.13"
+compare_version = "2.0.7"
+instrument-level = "1.0.14"
 serde_urlencoded = "0.7.1"
-hyperlane-macros = "23.0.8"
+hyperlane-macros = "23.0.10"
 rustls-pki-types = "1.14.1"
-bin-encode-decode = "1.1.43"
-recoverable-spawn = "3.9.22"
-hyperlane-broadcast = "2.0.5"
-std-macro-extensions = "1.0.4"
-recoverable-thread-pool = "2.4.22"
-hyperlane-plugin-websocket = "14.0.7"
+bin-encode-decode = "1.1.44"
+recoverable-spawn = "3.9.23"
+hyperlane-broadcast = "2.0.6"
+std-macro-extensions = "1.0.5"
+recoverable-thread-pool = "2.4.23"
+hyperlane-plugin-websocket = "14.0.8"
 aes = { version = "0.9.1", features = ["hazmat"] }
 getrandom = { version = "0.4.2", features = ["sys_rng"] }
-rust_decimal = { version = "1.42.0", features = ["serde"] }
+rust_decimal = { version = "1.42.1", features = ["serde"] }
 cipher = { version = "0.5.2", features = ["block-padding"] }
 ed25519-dalek = { version = "2.2.0", features = ["rand_core"] }
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
@@ -104,7 +104,7 @@ rsa = { version = "0.9.10", default-features = false, features = [
     "sha1",
     "pkcs5",
 ] }
-uuid = { version = "1.23.2", features = [
+uuid = { version = "1.23.3", features = [
     "v1",
     "v3",
     "v4",
