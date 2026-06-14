@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "33.1.2"
+version = "33.1.3"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -54,14 +54,14 @@ bytemuck_derive = "1.10.2"
 compare_version = "2.0.7"
 instrument-level = "1.0.14"
 serde_urlencoded = "0.7.1"
-hyperlane-macros = "23.0.11"
+hyperlane-macros = "23.0.12"
 rustls-pki-types = "1.14.1"
 bin-encode-decode = "1.1.44"
 recoverable-spawn = "3.9.23"
 hyperlane-broadcast = "2.0.6"
 std-macro-extensions = "1.0.5"
 recoverable-thread-pool = "2.4.23"
-hyperlane-plugin-websocket = "14.0.9"
+hyperlane-plugin-websocket = "14.0.10"
 aes = { version = "0.9.1", features = ["hazmat"] }
 getrandom = { version = "0.4.2", features = ["sys_rng"] }
 rust_decimal = { version = "1.42.1", features = ["serde"] }
