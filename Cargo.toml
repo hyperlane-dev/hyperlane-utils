@@ -1,6 +1,6 @@
 [package]
 name = "hyperlane-utils"
-version = "33.1.7"
+version = "33.1.8"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
@@ -54,8 +54,8 @@ bytemuck_derive = "1.11.0"
 compare_version = "2.0.9"
 instrument-level = "1.0.16"
 serde_urlencoded = "0.7.1"
-hyperlane-macros = "23.0.17"
 rustls-pki-types = "1.15.0"
+hyperlane-macros = "23.0.17"
 bin-encode-decode = "1.1.46"
 recoverable-spawn = "3.9.25"
 hyperlane-broadcast = "2.0.8"
@@ -104,7 +104,7 @@ rsa = { version = "0.9.10", default-features = false, features = [
     "sha1",
     "pkcs5",
 ] }
-uuid = { version = "1.23.4", features = [
+uuid = { version = "1.23.5", features = [
     "v1",
     "v3",
     "v4",
